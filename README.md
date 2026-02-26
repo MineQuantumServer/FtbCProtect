@@ -5,7 +5,9 @@ FTB区块加强保护
 
 它具有以下三个功能：
 当玩家位于**没有权限的FTBC领地内**被禁止使用含有`#FtbCProtect:Prohibited_Item`标签的物品。
+
 当玩家位于**没有权限的FTBC领地附近一定距离内（可配置）** 被禁止使用含有`#FtbCProtect:Prohibited_ItemInRegion`标签的物品。
+
 当玩家位于**没有权限的FTBC领地附近一定距离内（可配置）** 被禁止放置含有`#FtbCProtect:Prohibited_BlockInRegion`标签的方块。
 
 理论上他可以不需要kubejs做前置，但是如果不安装kubejs，你需要安装额外的模组或插件来给物品或方块添加Tag标签
